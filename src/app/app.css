@@ -1,0 +1,93 @@
+
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
+.pagina {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background-color: #f3f5f9;
+  font-family: Arial, sans-serif;
+}
+
+.cartao {
+  width: 100%;
+  max-width: 480px;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #24324a;
+  font-size: 26px;
+}
+
+.descricao {
+  margin-bottom: 24px;
+  color: #687386;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+label {
+  color: #344054;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+button {
+  width: 100%;
+  padding: 13px;
+  margin-top: 4px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+@media (max-width: 520px) {
+  .cartao {
+    padding: 24px 18px;
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+}
