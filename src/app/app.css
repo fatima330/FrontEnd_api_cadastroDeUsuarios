@@ -91,3 +91,15 @@ button:hover {
     font-size: 23px;
   }
 }
+
+.mensagem {
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.erro {
+  color: #b42318;
+  background-color: #fef3f2;
+}

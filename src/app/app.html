@@ -62,5 +62,10 @@
 
       <button type="submit">Cadastrar usuário</button>
     </form>
+  @if (mensagem) {
+  <p class="mensagem" [class.erro]="erroCadastro">
+    {{ mensagem }}
+  </p>
+}
   </section>
 </main>
